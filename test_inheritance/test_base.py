@@ -7,8 +7,15 @@ class Test_Demo:
         self.driver.get("https://google.com")
         self.driver.get("https://demo.actitime.com")
         self.driver.maximize_window()
+        abc = self.driver.title
+        print(abc)
+        self.assertTrue(abc == "actiTIME - Login")
+        #self.assert abc = "actiTIME - Login"
+        #self.assert abc.text == 'actiTIME - Login'
 
     def test_username(self):
         self.driver.find_element_by_id('username').send_keys('admin')
         self.driver.find_element_by_name('pwd').send_keys('manager')
         self.driver.find_element_by_xpath('//*[@id="loginButton"]/div').click()
+        x = self.driver.title
+        print(x)
