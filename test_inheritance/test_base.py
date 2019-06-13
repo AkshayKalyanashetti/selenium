@@ -9,7 +9,8 @@ class Test_Demo:
         self.driver.maximize_window()
         abc = self.driver.title
         print(abc)
-        self.assertTrue(abc == "actiTIME - Login")
+        assert(abc == "actiTIME - Login", 'NOt matching so failed')
+        #assertTrue(abc == "actiTIME - Login")
         #self.assert abc = "actiTIME - Login"
         #self.assert abc.text == 'actiTIME - Login'
 
