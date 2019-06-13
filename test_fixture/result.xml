@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="2" name="pytest" skipped="1" tests="5" time="0.207"><testcase classname="test_demo.Test_fixture" file="test_demo.py" line="3" name="test_open" time="0.002"><system-out>open the URl
+</system-out></testcase><testcase classname="test_demo.Test_fixture" file="test_demo.py" line="8" name="test_task" time="0.002"><skipped message="unconditional skip" type="pytest.skip">test_demo.py:8: unconditional skip</skipped></testcase><testcase classname="test_demo.Test_fixture" file="test_demo.py" line="13" name="test_assign" time="0.000"><system-out>assigh the tas 
+</system-out></testcase><testcase classname="test_demo.Test_fixture" file="test_demo.py" line="16" name="test_check" time="0.002"><failure message="assert 5 == 2
+  -5
+  +2">self = &lt;test_fixture.test_demo.Test_fixture object at 0x044DFDB0&gt;
+
+    def test_check(self):
+        print(&apos;everythig is fine&apos;)
+&gt;       assert 5 == 2
+E       assert 5 == 2
+E         -5
+E         +2
+
+test_demo.py:19: AssertionError</failure><system-out>everythig is fine
+</system-out></testcase><testcase classname="test_demo.Test_fixture" file="test_demo.py" line="20" name="test_login" time="0.002"><failure message="assert 5 == 4
+  -5
+  +4">self = &lt;test_fixture.test_demo.Test_fixture object at 0x044D6110&gt;
+
+    def test_login(self):
+        print(&apos;loging suucess&apos;)
+&gt;       assert 5 == 4
+E       assert 5 == 4
+E         -5
+E         +4
+
+test_demo.py:23: AssertionError</failure><system-out>loging suucess
+</system-out></testcase></testsuite>
