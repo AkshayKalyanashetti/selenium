@@ -3,11 +3,14 @@ from selenium import webdriver
 
 
 class Test_Demo1:
+
+
      def abc(self):
-         self.driver = webdriver.Chrome('C:\\Users\\Akshay\\Downloads\\chrome\\chromedriver')
-         self.driver.find_element_by_xpath('//*[@id="topnav"]/tbody/tr[1]/td[3]/a/div[1]').click()
+         driver = webdriver.Chrome('C:\\Users\\Akshay\\Downloads\\chrome\\chromedriver')driver.find_element_by_xpath('//*[@id="topnav"]/tbody/tr[1]/td[3]/a/div[1]').click()
+         print("executing")
 
 dd = Test_Demo
+
 #dd1 = Test_Demo1().abc()
 
 

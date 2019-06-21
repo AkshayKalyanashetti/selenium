@@ -15,12 +15,12 @@ class Test_fixture:
         assert 5*5 == 25
 
     def test_assign(self):
-        print('assigh the tas ')complex
+        print('assigh the tas ')
 
     def test_check(self):
         print('everythig is fine')
-        assert 5 == 2
+        assert 'abc' == 'abc'
 
     def test_login(self):
         print('loging suucess')
-        assert 5 == 4
+        assert 4 == 4
